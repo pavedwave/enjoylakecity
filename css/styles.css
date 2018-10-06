@@ -16,7 +16,8 @@
 }
 
 .footer {
-    background-color: rgb(24, 104, 104);
+    background-color: rgb(31, 168, 134); 
+    /* background-color: rgb(24, 104, 104); */
     margin: 0px auto;
     padding: 20px 0px 20px 0px;
     font-size: 15px;
@@ -25,12 +26,12 @@
 .jumbotron {
     padding: 70px 30px 70px 30px;
     margin: 0px auto;
-    background: rgb(31, 168, 134); 
-    color: rgb(255, 244, 240);
+    background: rgb(69, 49, 177); 
+    color: 512DA8
 }
 
 .jumbotron {
-    background-image: url("../img/fishmural.jpg");
+    /* background-image: url("../img/fishmural.jpg"); */
     background-size: cover;
     min-height: 300px;
 }
@@ -38,15 +39,15 @@
     position: relative;
     display: block;
     font-weight: bold;
-    color: black;
-    padding-left: 40px;
+    color: white;
+    padding-left: 0px;
 
   }
   .jumbotron p {
     position: absolute;
     display: block;
-    color: black;
-    font-size: 20px;
+    color: white;
+    font-size: 18px;
     padding-bottom: 50px;
   }
 .address {
@@ -56,12 +57,14 @@
 }
 
 body {
+    background-image: url("../img/fishmural.jpg");
     padding: 30px 0px 0px 0px;
     z-index: 0;
 }
 
 .navbar-light {
-    background-color: rgb(24, 104, 104);
+    background-color: rgb(31, 168, 134); 
+    /* background-color: rgb(24, 104, 104); */
 }
 
 .btn-social-icon:hover {
