@@ -8,21 +8,48 @@
     padding: 50px 0px 50px 0px;
     border-bottom: 1px ridge;
     min-height: 200px;
+
+    /* background-image: url("../img/fishmural.jpg"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .footer {
-    background-color: rgb(182, 84, 77);
+    background-color: rgb(24, 104, 104);
     margin: 0px auto;
     padding: 20px 0px 20px 0px;
+    font-size: 15px;
 }
 
 .jumbotron {
     padding: 70px 30px 70px 30px;
     margin: 0px auto;
-    background: rgb(172, 65, 51); 
-    color: rgb(255, 244, 240) 
+    background: rgb(31, 168, 134); 
+    color: rgb(255, 244, 240);
+    h1: color: 
 }
 
+.jumbotron {
+    background-image: url("../img/fishmural.jpg");
+    background-size: cover;
+    min-height: 300px;
+}
+.jumbotron h1 {
+    position: relative;
+    display: block;
+    font-weight: bold;
+    color: black;
+    padding-left: 40px;
+
+  }
+  .jumbotron p {
+    position: absolute;
+    display: block;
+    color: black;
+    font-size: 20px;
+    padding-bottom: 50px;
+  }
 .address {
     font-size: 80%;
     margin: 0px;
@@ -35,7 +62,7 @@ body {
 }
 
 .navbar-light {
-    background-color: orangered;
+    background-color: rgb(24, 104, 104);
 }
 
 .btn-social-icon:hover {
@@ -65,10 +92,11 @@ body {
 }
 
 .carousel-caption {
-    margin-left: 200px;
-    margin-bottom: 40px;
+    margin-left: 310px;
+    margin-bottom: 10px;
+    font-size: 15px;
 }
 
 .carousel-indicators {
-    margin-left: 350px;
+    margin-left: 440px;
 }

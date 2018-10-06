@@ -8,9 +8,9 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="week1/node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="week1/node_modules/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="week1/node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
     <link rel="stylesheet" href="css/styles.css">
     <title>EnjoyLakeCity.org</title>
 </head>
@@ -21,19 +21,15 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="#"><img src="img/logo-lake-city-future-first.png" height="30" width="80"></a>
+            <a class="navbar-brand" href="#"><img src="img/logo-chevron-lake-city-future-first.png" height="50" width="170"></a>
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span>  Menu</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span>  Contact</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="./news.html"><span class="fa fa-home fa-lg"></span> News</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./calendar.html"><span class="fa fa-info fa-lg"></span> Calendar</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./arts.html"><span class="fa fa-list fa-lg"></span>  Arts & Culture</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./businesses.html"><span class="fa fa-address-card fa-lg"></span> Businesses</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Volunteer</a></li>
                 </ul>
-                <span class="navbar-text">
-                    <a data-toggle="modal" data-target="#loginModal">
-                        <span class="fa fa-sign-in"></span> Login
-                    </a>
-                </span>
             </div>
         </div>
     </nav>
@@ -41,17 +37,109 @@
     <header class="jumbotron">
         <div class="container">
             <div class="row row-header">
-                <div class="col-12 col-sm-6">
-                    <h1>Enjoy Lake City</h1>
-                    <p>Lake City News
-                        Know what’s happening now in Lake City. We keep you up-to-date on local activities, LCFF committee work, and other good things to enjoy about your neighborhood.</p>
+                <div class="col-md-4">
+                    <h1 class="text-center">Enjoy Lake City</h1>
+                    <p class="text-center">Know what’s happening now in Lake City. We keep you up-to-date on local activities, LCFF committee work, and other good things to enjoy about your neighborhood.</p>
                 </div>
-                <div class="col-sm-3 align-self-center">
-                    <img src="img/logo-lake-city-future-first.png" alt="logo" class="img-fluid">
-                </div>
+
             </div>
         </div>
     </header>
+
+    <div class="container align-self-center">
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header role="tab" id="fredmeyerhead">
+                    <h3 class="mb-0">
+                        <a class="collapsed" data-toggle="collapse" data-target="#fredmeyer">
+                            The Fred Meyer Garden Project <small>(Volunteer)</small>
+                        </a>
+                    </h3>
+                </div>
+                <div role="tabpanel" class="collapse" id="fredmeyer" data-parent="#accordion">
+                    <div class="card-body">
+                        <p class="d-none d-sm-block">In 2014 Fred Meyer’s corporate offices agreed to allow our Lake City community to transform a green strip directly south from their Lake City location into a community garden. This was a direct result of volunteer efforts by Lake City Future First.</p>
+
+                                <p>The goal of the garden is to provide our economically and culturally diverse community a chance to work together to transform a common area into something that will provide a sense of pride and a variety of volunteer opportunities.</p>
+                                
+                                <p>Although the project has languished a bit much has happened in preparation to begin work on the space. Two community survey processes, professional design recommendations, multiple opportunities for public input and relationship building with Fred Meyer have all been wonderful components to the process. Out of the process the community has identified that improvements to the space would concentrate on aesthetics and ecology. Few would argue that the current space lacks visual appeal. This location is highly visible – viewed by thousands of commuters each day. The transformation would help change perceptions about the area and encourage potential consumers to stop by our civic core.  The space also offers a pedestrian passage for people traveling from Lake City Way to 33rd Avenue and back. The potential to book end one of the most diverse streets in the City with the future park on 33rd Avenue adds a new level of excitement.</p>
+
+                                <img src="img/fredmeyergarden.jpg">
+                                
+                                <p>The location’s proximity to 33rd offers a unique engagement opportunity to work with many under-represented groups within our neighborhood. The main goal of the garden has been broad community outreach, volunteer opportunities, community building and a chance for educational opportunities. For example, the Little Brooke culvert runs under the space and is day lighted a short distance away as it joins Thornton Creek.</p>
+                                
+                                <p>The current state of the process is ensuring that issues such as the lease agreement and the insurance requirements are something that we are able to take on. We have also realized what a great opportunity this is to report back to the community on how a process like this unfolds. The educational opportunities inherent in this type of project need to be fully explored.</p>
+                                
+                                <p>One of the major concerns that we have heard is regarding the safety and maintenance of the space which has led us to realize that more conversation and solid planning for the success of the project are needed.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header role="tab" id="korochkahead">
+                    <h3 class="mb-0">
+                        <a class="collapsed" data-toggle="collapse" data-target="#korochka">
+                                Korochka Tavern Featured on KING 5 <small> (Businesses)</small>
+                        </a>
+                    </h3>
+                </div>
+                <div role="tabpanel" class="collapse" id="korochka" data-parent="#accordion">
+                    <div class="card-body">
+                        <p class="d-none d-sm-block"><img src="img/Korochka-320x180.jpg"><p>Many of us know how great Korochka Tavern is but it was fun to see KING 5’s Evening Magazine come out and share it with the rest of Seattle. Located at 12348 Lake City Way NE. It is one of our local treasures. You can view the video segment below and don’t forget to visit their facebook page at https://www.facebook.com/korochka/</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header role="tab" id="cleanuphead">
+                    <h3 class="mb-0">
+                        <a class="collapsed" data-toggle="collapse" data-target="#cleanup">
+                                Join Your Neighbors for Our Fall Clean Up <small>(Clean & Safe Feature)</small>
+                        </a>
+                    </h3>
+                </div>
+                <div role="tabpanel" class="collapse" id="cleanup" data-parent="#accordion">
+                    <div class="card-body">
+                        <p class="d-none d-sm-block"><p>October 21st from 1pm – 3pm
+                                Friends, we would really love to have a strong showing for our last regular clean up this year. If you have been hoping to make one of the clean up efforts please make sure you don’t miss this one. If you have been one of our past participants please come back out so that we can thank you for your dedication.</p>
+                                
+                                <p>We will have some raffle prizes at each station, free “Love Lake City” t-shirts (while they last) along with some light snacks and refreshments. We provide all you need to participate.</p>
+                                
+                                <p>Choose from 3 locations to meet our leads and pick up goodies and supplies –</p>
+                                
+                                <p>1) Lake City Library at 12501 28th Ave.</p>
+                                
+                                <p>2) Lake City Mini Park at the corner of NE 125th and LCW</p>
+                                
+                                <p>3) God’s Lil Acre on 12517 33rd Ave. NE</p>
+                                <img src="img/Group-at-Library-320x240.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header role="tab" id="durkanhead">
+                    <h3 class="mb-0">
+                        <a class="collapsed" data-toggle="collapse" data-target="#durkan">
+                                Mayor Durkan’s New Budget Plan for Seattle<small>(News)</small>
+                        </a>
+                    </h3>
+                </div>
+                <div role="tabpanel" class="collapse" id="durkan" data-parent="#accordion">
+                    <div class="card-body">
+                            <p class="d-none d-sm-block"><p>Earlier today at Fire Station 10, Mayor Durkan presented her proposed 2019-2020 biennial budget – her first budget as mayor. Her budget plan reflects the values and priorities that she has focused on as mayor over the past nine months:</p>
+
+                                <ul>
+                                    <li>Focusing on the basics, like public safety, transportation, and water – the essentials that our communities, our neighborhoods, and our businesses rely on;</li>
+                                <li>Addressing our crisis of affordability, housing, and homelessness;</li>
+                                <li>Standing up for what’s right – for inclusion and equity and our most vulnerable neighbors; and,</li>
+                                <li>Investing in building a city of the future – one that is more welcoming, innovative, and vibrant.</li>
+                                </ul>
+                                <img src="img/Mayor-Durkan-with-Annette-320x250.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
     <div class="container">
         <div class="row row-content">
@@ -97,48 +185,48 @@
 
     <footer class="footer">
         <div class="container">
-            <div class="row">             
-                <div class="col-4 offset-1 col-sm-2">
-                    <h5>Links</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="aboutus.html">About</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="./contactus.html">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="col-7 col-sm-5">
-                    <h5>Our Address</h5>
-                    <address>
-		              Lake City Way<br>
-		              Seattle<br>
-		              WA<br>
-		              <i class="fa fa-phone fa-lg"></i> +000 123 4567<br>
-		              <i class="fa fa-fax fa-lg"></i> +000 123 4567<br>
-		              <i class="fa fa-envelope fa-lg"></i> <a href="mailto:DIRECTOR@LAKECITYFUTUREFIRST.ORG">DIRECTOR@LAKECITYFUTUREFIRST.ORG</a>
-		           </address>
-                </div>
+            <div class="row">
                 <div class="col-12 col-sm-4 align-self-center">
                     <div class="text-center">
-                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus fa-lg"></i></a>
                         <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook fa-lg"></i></a>
-                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin fa-lg"></i></a>
                         <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter fa-lg"></i></a>
                         <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/"><i class="fa fa-youtube fa-lg"></i></a>
                         <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o fa-lg"></i></a>
                     </div>
                 </div>
-           </div>
-           <div class="row justify-content-center">             
-                <div col="auto"></div>
-                    <p>© Copyright 2018 EnjoyLakeCity.org</p>
+                <div class="col-4 col-sm-2 text-center">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="./news.html">News</a></li>
+                        <li><a href="./calendar.html">Calendar</a></li>
+                        <li><a href="./arts.html">Arts & Culture</a></li>
+                        <li><a href="./businesses.html">Businesses</a></li>
+                        <li><a href="./contactus.html">Volunteer</a></li>
+                    </ul>
                 </div>
-           </div>
-        </div>
-    </footer>
+                <div class="col-5 col-md-5 text-right">
+                    <h5>Our Address</h5>
+                    <address>
+                        Lake City Way<br>
+                        Seattle<br>
+                        WA<br>
+                        <i class="fa fa-phone fa-lg"></i> Phone +000 123 4567<br>
+                        <i class="fa fa-fax fa-lg"></i> Fax +000 123 4567<br>
+                        <i class="fa fa-envelope fa-lg"></i> <a href="mailto:director@lakecityfuturefirst.org">director@lakecityfuturefirst.org</a>
+                    </address>
+                </div>
+            </div>
+            <div class="row justify-content-center">             
+                    <div col="auto"></div>
+                        <p>© Copyright 2018 EnjoyLakeCity.org</p>
+                    </div>
+            </div>
+            </div>
+        </footer>
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
-    <script src="week1/node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="week1/node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="week1/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
